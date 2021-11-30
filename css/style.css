@@ -1,0 +1,184 @@
+/* =======main css start========= */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* ========main css end======= */
+
+/* ==========venobox video part start========== */
+
+#veno_video {
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.overlay {
+    padding: 250px 250px;
+    background: rgba(0, 0, 0, 0.692);
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon i {
+    font-size: 100px;
+    color: red;
+}
+
+
+
+
+
+
+/* ==========venobox video part end========== */
+
+
+
+/* ==========venobox part start======= */
+#venobox {
+    background: teal;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 100px;
+}
+
+.venobox-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.venobox-item {
+    width: 23%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0px 0px 7px 3px #fff;
+}
+
+.venobox-item img {
+    width: 100%;
+}
+
+
+
+/* ==========venobox part end======= */
+
+
+/* =========slick slider part start============ */
+#slick_slider {
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.main {
+    position: relative;
+}
+
+.item img {
+    width: 100%;
+    height: 500px;
+}
+
+.item {
+    position: relative;
+}
+
+.overlay-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.637);
+}
+
+
+.pre {
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.next {
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 16px 0;
+    list-style: none;
+    bottom: 40px;
+}
+
+.slick-dots ul {
+    margin: 0 0.35rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.slick-dots button {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* =========slick slider part end============ */
